@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe8d2c4b13624e5f99776bc5478e333a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 75.0px;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fe8d2c4b13624e5f99776bc5478e333a" ></div>
+        
+</body>
+<script>    
+    
+            var map_fe8d2c4b13624e5f99776bc5478e333a = L.map(
+                "map_fe8d2c4b13624e5f99776bc5478e333a",
+                {
+                    center: [34.9, -118.8863],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e43322461307484a9c87e20c9d157ecd = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var marker_252a7bf4ea754522a26bda9ec610d0ff = L.marker(
+                [37.405699, -119.56754],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_1864ccffed094bd98b5f8cd5d2701688 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_252a7bf4ea754522a26bda9ec610d0ff.setIcon(icon_1864ccffed094bd98b5f8cd5d2701688);
+        
+    
+        var popup_12f8359845f3496198ca47421a568f4a = L.popup({"maxWidth": 100});
+
+        
+            var html_5aaee9cf077a4793bc3c4df97d771189 = $(`<div id="html_5aaee9cf077a4793bc3c4df97d771189" style="width: 100.0%; height: 100.0%;">Way of the Mono Trail	Date: 8/10/19	Length: 0.5</div>`)[0];
+            popup_12f8359845f3496198ca47421a568f4a.setContent(html_5aaee9cf077a4793bc3c4df97d771189);
+        
+
+        marker_252a7bf4ea754522a26bda9ec610d0ff.bindPopup(popup_12f8359845f3496198ca47421a568f4a)
+        ;
+
+        
+    
+    
+            var marker_749db40c800948988dd9a26145be6902 = L.marker(
+                [37.699662, -119.67528999999999],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_07fc4c7c38d2483ebed2b77154adac3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_749db40c800948988dd9a26145be6902.setIcon(icon_07fc4c7c38d2483ebed2b77154adac3c);
+        
+    
+        var popup_b6fe0e9bdd1e47a7847af44c6b8c8016 = L.popup({"maxWidth": 100});
+
+        
+            var html_153e3442fc314f459dabdd057775bd4e = $(`<div id="html_153e3442fc314f459dabdd057775bd4e" style="width: 100.0%; height: 100.0%;">Columbia Rock Trail	Date: 12/28/19	Length: 2.1</div>`)[0];
+            popup_b6fe0e9bdd1e47a7847af44c6b8c8016.setContent(html_153e3442fc314f459dabdd057775bd4e);
+        
+
+        marker_749db40c800948988dd9a26145be6902.bindPopup(popup_b6fe0e9bdd1e47a7847af44c6b8c8016)
+        ;
+
+        
+    
+    
+            var marker_72504f00ae5742008469f87871f6766a = L.marker(
+                [37.270542999999996, -122.02305],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_7620b0755a11452683ad8e9d56d71134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_72504f00ae5742008469f87871f6766a.setIcon(icon_7620b0755a11452683ad8e9d56d71134);
+        
+    
+        var popup_3b22c31f9d284a7aba9733da4f07f32e = L.popup({"maxWidth": 100});
+
+        
+            var html_1ee145cf6e44489d81c4dea4387c46e5 = $(`<div id="html_1ee145cf6e44489d81c4dea4387c46e5" style="width: 100.0%; height: 100.0%;">Sanborn Trail	Date: 6/20/20	Length: 6.1</div>`)[0];
+            popup_3b22c31f9d284a7aba9733da4f07f32e.setContent(html_1ee145cf6e44489d81c4dea4387c46e5);
+        
+
+        marker_72504f00ae5742008469f87871f6766a.bindPopup(popup_3b22c31f9d284a7aba9733da4f07f32e)
+        ;
+
+        
+    
+    
+            var marker_553a657a1b074864869ad44fc0ac9561 = L.marker(
+                [36.979333000000004, -121.8944],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_59cb91b09659470e8ed3a55b959c0ffd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_553a657a1b074864869ad44fc0ac9561.setIcon(icon_59cb91b09659470e8ed3a55b959c0ffd);
+        
+    
+        var popup_3434e4a47e3d47b59e5709987255c850 = L.popup({"maxWidth": 100});
+
+        
+            var html_c8d43638e92a44ffae7daa6b05682677 = $(`<div id="html_c8d43638e92a44ffae7daa6b05682677" style="width: 100.0%; height: 100.0%;">Bridge Creek Trail to Maple Falls	Date: 6/27/20	Length: 14.1</div>`)[0];
+            popup_3434e4a47e3d47b59e5709987255c850.setContent(html_c8d43638e92a44ffae7daa6b05682677);
+        
+
+        marker_553a657a1b074864869ad44fc0ac9561.bindPopup(popup_3434e4a47e3d47b59e5709987255c850)
+        ;
+
+        
+    
+    
+            var marker_d10fff8ceb274728aaea7c03ccc0f1a2 = L.marker(
+                [37.444879, -122.26253],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_763c35a2774b40089d3398aa150d3d56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d10fff8ceb274728aaea7c03ccc0f1a2.setIcon(icon_763c35a2774b40089d3398aa150d3d56);
+        
+    
+        var popup_9773d1b64d5a429d9669873e33b800b1 = L.popup({"maxWidth": 100});
+
+        
+            var html_68daaf6a7b9d4e57b8952a76d39742ee = $(`<div id="html_68daaf6a7b9d4e57b8952a76d39742ee" style="width: 100.0%; height: 100.0%;">Coal Creek Double Loop	Date: 7/11/20	Length: 1.8</div>`)[0];
+            popup_9773d1b64d5a429d9669873e33b800b1.setContent(html_68daaf6a7b9d4e57b8952a76d39742ee);
+        
+
+        marker_d10fff8ceb274728aaea7c03ccc0f1a2.bindPopup(popup_9773d1b64d5a429d9669873e33b800b1)
+        ;
+
+        
+    
+    
+            var marker_b99d5cb8bedd4b18a043a5176317bf68 = L.marker(
+                [37.160012, -121.9881],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_ffb13cb2c9d04c35b5b6c388cca3c4a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b99d5cb8bedd4b18a043a5176317bf68.setIcon(icon_ffb13cb2c9d04c35b5b6c388cca3c4a6);
+        
+    
+        var popup_63d2bc31bff842ffb85bc327b5367c62 = L.popup({"maxWidth": 100});
+
+        
+            var html_05bad4ddd3534ad589a7b8051c24cd90 = $(`<div id="html_05bad4ddd3534ad589a7b8051c24cd90" style="width: 100.0%; height: 100.0%;">Saratoga Gap Trail and Ridge Trail Loop	Date: 8/1/20	Length: 3.6</div>`)[0];
+            popup_63d2bc31bff842ffb85bc327b5367c62.setContent(html_05bad4ddd3534ad589a7b8051c24cd90);
+        
+
+        marker_b99d5cb8bedd4b18a043a5176317bf68.bindPopup(popup_63d2bc31bff842ffb85bc327b5367c62)
+        ;
+
+        
+    
+    
+            var marker_3dd5e2ec83534093b2bf7e1449d18f45 = L.marker(
+                [37.70400157355598, -119.67095042644401],
+                {}
+            ).addTo(map_fe8d2c4b13624e5f99776bc5478e333a);
+        
+    
+            var icon_3f64d4e3a3e94aa4ac9082d7b0771023 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3dd5e2ec83534093b2bf7e1449d18f45.setIcon(icon_3f64d4e3a3e94aa4ac9082d7b0771023);
+        
+    
+        var popup_f7c5e6ed4a0f4195b063ec5009d699c8 = L.popup({"maxWidth": 100});
+
+        
+            var html_910a252b69cc4573b0ac7b043f11e16a = $(`<div id="html_910a252b69cc4573b0ac7b043f11e16a" style="width: 100.0%; height: 100.0%;">Upper Yosemite Falls	Date: 12/12/20	Length: 8.1</div>`)[0];
+            popup_f7c5e6ed4a0f4195b063ec5009d699c8.setContent(html_910a252b69cc4573b0ac7b043f11e16a);
+        
+
+        marker_3dd5e2ec83534093b2bf7e1449d18f45.bindPopup(popup_f7c5e6ed4a0f4195b063ec5009d699c8)
+        ;
+
+        
+    
+</script>

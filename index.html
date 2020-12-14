@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hiking Dashboard</title>
+  <link rel="stylesheet" href="data/style/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en" >
+<style>
+     ul {
+                text-align:center;
+                line-height: 3;
+            }
+    .fa-home {
+        color: white;
+            }
+     .fa-map {
+        color: white;
+            }
+     .fa-users {
+        color: white;
+            }
+    .fa-star {
+        color: white;
+            }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dashboard</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="data/style/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<aside class="side-nav" id="show-side-navigation1">
+  <i class="fa fa-bars close-aside hidden-sm hidden-md hidden-lg" data-close="show-side-navigation1"></i>
+  <div class="heading">
+    <img src="data/images/bob.png" alt="">
+    <div class="info">
+
+    </div>
+  </div>
+    <br>
+  <ul class="categories">
+    <a href="https://v4lakers.github.io/hike/"><i class="fa fa-home" style="font-size:24px"></i></a>
+      <br>
+    <a href="https://v4lakers.github.io/hike/badges"><i class="fa fa-star" style="font-size:24px"></i></a>
+      <br>
+    <a href="https://v4lakers.github.io/hike/map"><i class="fa fa-map" style="font-size:20px"></i></a>
+      <br>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa fa-users" style="font-size:20px"></i></a>
+
+    </li>
+  </ul>
+
+</aside>
+<section id="contents">
+  <div class="welcome">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="content">
+            <h2>All Time Stats</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <section class='statis text-center'>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box bg-primary">
+              <i class="fa fa-globe"></i>
+<h3>36.3</h3>
+              <p class="lead">Miles</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box danger">
+              <i class="fa fa-arrow-up"></i>
+
+<h3>8,464</h3>
+              <p class="lead">Elevation Gain</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box warning">
+              <i class="fa fa-clock-o"></i>
+
+<h3>1,236</h3>
+              <p class="lead">Minutes</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box success">
+              <i class="fa fa-map-marker"></i>
+<h3>7</h3>
+              <p class="lead">Hikes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="charts">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="chart-container">
+            <h3>Road to 💯 Miles</h3>
+            <canvas id="myChart" ></canvas>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="chart-container">
+            <h3>Hiked Miles Per Month</h3>
+            <canvas id="myChart5"></canvas>
+          </div>
+        </div>
+      <div class="col-md-3">
+          <div class="chart-container">
+            <h3>Road to 50 Hikes</h3>
+            <canvas id="myChart2"></canvas>
+          </div>
+        </div>
+      </div>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+          <div class="chart-container">
+            <h3>Miles vs Elevation Gain vs Time</h3>
+            <canvas id="myChart3"></canvas>
+          </div>
+        </div>
+            <div class="col-md-6">
+            <div class="chart-container">
+            <h3>Median Efficiency Per Month</h3>
+            <canvas id="myChart6"></canvas>
+            </div>
+            </div>
+            <!--
+            <div class="col-md-5">
+                <div class="chart-container">
+                <h3>Top 3 Efficient Hikes</h3>
+            <table class="rwd-table">
+                  <tr>
+                    <th>Hike Name</th>
+                      <th>Date</th>
+                    <th>Length</th>
+                      <th>Elevation Gain</th>
+                      <th>Time</th>
+                      <th>Efficiency</th>
+
+                  </tr>
+                  <tr>
+                    <td>Sanborn Trail</td>
+                      <td>6/20/20</td>
+                    <td>6.1</td>
+                      <td>1541</td>
+                      <td>180</td>
+                      <td>0.83</td>
+                  </tr>
+                  <tr>
+                    <td>Bridge Creek Trail to Maple Falls</td>
+                      <td>6/27/20</td>
+                      <td>14.1</td>
+                      <td>1260</td>
+                      <td>355</td>
+                      <td>0.82</td>
+                  </tr>
+                <tr>
+                    <td>Bishop Peak</td>
+                    <td>7/18/20</td>
+                    <td>3.9</td>
+                      <td>1204</td>
+                      <td>103</td>
+                      <td>0.80</td>
+                  </tr>
+                </table>
+            </div>
+            </div>-->
+
+
+      </div>
+    </div>
+
+  </section>
+ <section class='statis text-center'>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box bg-primary">
+              <i class="fa fa-globe"></i>
+<h3>6</h3>
+              <p class="lead">Zip Codes</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box danger">
+              <i class="fa fa-globe"></i>
+
+<h3>5</h3>
+              <p class="lead">Counties</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box warning">
+              <i class="fa fa-globe"></i>
+
+<h3>1</h3>
+              <p class="lead">States</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box success">
+              <i class="fa fa-globe"></i>
+<h3>1</h3>
+              <p class="lead">Countries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+
+
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/chart.js@2.8.0'></script><script  src="data/style/script.js"></script>
