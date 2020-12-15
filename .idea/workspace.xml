@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="427b754f-2f63-4db4-a59c-8f3114afe00e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/badges.html" beforeDir="false" afterPath="$PROJECT_DIR$/badges.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1607912605708" duration="260000" />
       <workItem from="1607914694019" duration="456000" />
       <workItem from="1607919934028" duration="890000" />
-      <workItem from="1607993950533" duration="98000" />
+      <workItem from="1607993950533" duration="321000" />
     </task>
     <servers />
   </component>
@@ -130,10 +130,10 @@
       <screen x="-1440" y="0" width="1440" height="900" />
     </state>
     <state x="-1440" y="0" width="1440" height="900" key="dock-window-1/-1440.0.1440.900/0.0.2560.1440@-1440.0.1440.900" timestamp="1601257151339" />
-    <state x="532" y="207" width="670" height="423" key="search.everywhere.popup" timestamp="1599588056170">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="946" y="331" width="1192" height="677" key="search.everywhere.popup" timestamp="1607994171640">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/-1440.0.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1598754030254" />
+    <state x="946" y="331" width="1192" height="677" key="search.everywhere.popup/-1440.0.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607994171640" />
     <state x="532" y="207" width="670" height="423" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1599588056170" />
   </component>
 </project>
